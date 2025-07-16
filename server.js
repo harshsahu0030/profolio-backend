@@ -24,7 +24,7 @@ app.use(express.static("public"));
 app.route("/").get((req, res) => {
   res
     .status(200)
-    .json({ success: true, message: "Welcome to Shreeji Tech Solutions!" });
+    .json({ success: true, message: "Welcome to Harsh Portfolio!" });
 });
 
 // import routes
