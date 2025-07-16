@@ -22,8 +22,6 @@ You can expect a response within 1–2 business days.
 Kind regards,  
 ${process.env.USER_NAME}
 ${process.env.USER_EMAIL}
-info@shreejitechsolutions.in
-${process.env.CONTACT_NO}
 `;
 
   const mail = await Mail.create({ name, email, message });
