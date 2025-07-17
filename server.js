@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://shreejitechsolutions.in"],
+    origin: ["http://localhost:5173", "https://profolio-frontend-five.vercel.app"],
     credentials: true,
   })
 );

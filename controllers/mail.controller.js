@@ -34,7 +34,7 @@ ${process.env.USER_EMAIL}
     sendMail({ email, subject, text }),
     sendMail({
       email: process.env.USER_EMAIL,
-      subject: "Contact from Shreeji Tech Solution",
+      subject: "Contact from Harsh Porfolio",
       text: `
 Name: ${name}
 Email: ${email}
